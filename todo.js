@@ -5,7 +5,7 @@ btn.addEventListener('click', function(){
     document.querySelector('#input').value = '';
 
     var li = document.createElement('li');
-    li.className = 'm-3';
+    li.className = 'm-3 w-50 d-flex justify-content-between';
     li.textContent = input;
 
     var listbtn = document.createElement('button');
