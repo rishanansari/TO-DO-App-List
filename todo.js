@@ -3,8 +3,8 @@ btn.addEventListener('click', function(){
     
     var input = document.querySelector('#input').value;
     document.querySelector('#input').value = '';
-
-    var li = document.createElement('li');
+if(input){
+    var li = document.createElement('li')
     li.className = 'm-3 w-50 d-flex justify-content-between';
     li.textContent = input;
 
@@ -20,4 +20,6 @@ btn.addEventListener('click', function(){
     
 
     console.log(input);
+}
+    
 })
